@@ -1,0 +1,5 @@
+cd deploy/
+ant  debug 
+
+
+

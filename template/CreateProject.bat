@@ -1,0 +1,1 @@
+android create project --target 10  --name AndroidTemplate --path deploy --activity Main --package com.yourapp

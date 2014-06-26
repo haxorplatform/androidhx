@@ -1,0 +1,423 @@
+F:\development\project\haxe\androidhx\examples\BasicGLSurfaceView
+begin defines
+dce
+haxe3
+haxe_ver
+hxcpp_api_level
+hxjava
+java
+java0
+java1
+java2
+java3
+java4
+java5
+java6
+java7
+java_ver
+no-compilation
+no_compilation
+sys
+true
+end defines
+begin defines_data
+dce=std
+haxe3=1
+haxe_ver=3.103
+hxcpp_api_level=311
+hxjava=1
+java=1
+java0=1
+java1=1
+java2=1
+java3=1
+java4=1
+java5=1
+java6=1
+java7=1
+java_ver=7
+no-compilation=1
+no_compilation=1
+sys=1
+true=1
+end defines_data
+begin modules
+M android.graphics.Typeface
+M java.Boot
+M java.net.URLConnection
+M java.lang.Runnable
+M android.content.pm.ApplicationInfo
+M android.view.InputEvent
+M android.content.pm.PackageInfo
+M java.util.Date
+M haxe.root.Std
+C haxe.root.Std
+M android.content.IntentFilter
+M haxe.ds.ObjectMap
+M android.graphics.Point
+M android.content.DialogInterface
+M android.graphics.Path
+M java.nio.channels.SelectableChannel
+M java.nio.ByteBuffer
+M android.content.pm.ConfigurationInfo
+M android.content.res.TypedArray
+M java.lang.reflect.AnnotatedElement
+M android.content.pm.ServiceInfo
+M java.nio.LongBuffer
+M java.lang.Enum
+M java.net.SocketOptions
+M java.internal.IEquatable
+C haxe.lang.IEquatable
+M java.lang.StackTraceElement
+M java.net.FileNameMap
+M java.io.IOException
+M java.lang.reflect.TypeVariable
+M java.lang.Boolean
+M java.util.Set
+M android.view.Surface
+M java.lang.ref.Reference
+M android.content.pm.PathPermission
+M java.internal.Exceptions
+C haxe.lang.Exceptions
+C haxe.lang.HaxeException
+M java.util.Properties
+M java.lang.reflect.Member
+M java.nio.channels.ServerSocketChannel
+M haxe.root.EnumValue
+M java.lang.RuntimeException
+M android.view.animation.Animation
+M android.graphics.Region
+M android.view.inputmethod.ExtractedTextRequest
+M android.opengl.Matrix
+M java.nio.channels.spi.AbstractSelectableChannel
+M android.database.sqlite.SQLiteStatement
+M java.nio.channels.SelectionKey
+M android.view.SurfaceView
+M android.os.SystemClock
+M java.net.DatagramSocketImpl
+M haxe.root.Array
+C haxe.root.Array
+C _Array.ArrayIterator
+M java.lang.Throwable
+M android.graphics.PorterDuff
+M android.view.InputDevice
+M android.view.TouchDelegate
+M haxe.ds.StringMap
+M android.util.TypedValue
+M android.view.KeyEvent
+M haxe.ds.WeakMap
+M java.net.DatagramSocket
+M examples.glsurfaceview.GLES20TriangleRenderer
+C examples.glsurfaceview.GLES20TriangleRenderer
+M java.nio.channels.spi.AbstractInterruptibleChannel
+M android.database.sqlite.SQLiteProgram
+M java.nio.channels.spi.SelectorProvider
+M java.lang.CharSequence
+M android.content.res.AssetManager
+M java.NativeArray
+M android.app.Activity
+M java.util.List
+M android.content.res.Configuration
+M android.util.DisplayMetrics
+M java.util.AbstractCollection
+M haxe.root.String
+M android.graphics.Shader
+M android.database.sqlite.SQLiteClosable
+M java.lang.annotation.Annotation
+M java.util.HashMap
+M android.content.ContextWrapper
+M android.content.res.AssetFileDescriptor
+M java.javax.microedition.khronos.egl.EGLSurface
+M android.os.Message
+M java.net.DatagramPacket
+M java.nio.channels.spi.AbstractSelectionKey
+M android.content.ContentProviderClient
+M android.opengl.GLES20
+M android.database.DataSetObserver
+M java.javax.microedition.khronos.opengles.GL10
+M java.nio.channels.ScatteringByteChannel
+M android.opengl.GLSurfaceView
+M java.util.Comparator
+M java.util.ListIterator
+M java.lang.Double
+M java.net.SocketImplFactory
+M java.io.FileInputStream
+M android.content.Context
+M java.internal.HxObject
+C haxe.lang.IHxObject
+C haxe.lang.HxObject
+C haxe.lang.DynamicObject
+C haxe.lang.Enum
+M java.internal.Runtime
+C haxe.lang.Runtime
+E haxe.lang.EmptyObject
+M android.os.Messenger
+M android.content.pm.PackageManager
+M android.content.ComponentName
+M android.opengl.GLUtils
+M android.view.inputmethod.InputConnection
+M java.nio.FloatBuffer
+M java.nio.channels.DatagramChannel
+M java.lang.Number
+M java.lang.Float
+M java.net.ServerSocket
+M java.nio.channels.SocketChannel
+M java.security.Guard
+M android.graphics.drawable.Drawable
+M android.content.PeriodicSync
+M android.graphics.MaskFilter
+M android.os.Parcelable
+M java.internal.StringExt
+C haxe.lang.StringExt
+C haxe.lang.StringRefl
+M haxe.EnumTools
+M android.content.ComponentCallbacks
+M android.graphics.Picture
+M java.lang.ThreadGroup
+M android.content.pm.FeatureInfo
+M java.util.AbstractList
+M java.lang.ref.ReferenceQueue
+M android.os.Parcel
+M java.lang.SecurityManager
+M java.nio.channels.WritableByteChannel
+M java.lang.reflect.AccessibleObject
+M java.util.Hashtable
+M java.nio.channels.ByteChannel
+M java.security.PermissionCollection
+M java.lang.Readable
+M java.lang.ThreadLocal
+M android.util.AndroidException
+M android.util.Log
+M java.net.URLStreamHandlerFactory
+M android.content.ContentValues
+M android.net.Uri
+M java.net.URL
+M android.view.Menu
+M java.net.ContentHandlerFactory
+M java.net.DatagramSocketImplFactory
+M android.util.SparseArray
+M java.lang.reflect.Method
+M java.nio.channels.InterruptibleChannel
+M android.graphics.DrawFilter
+M java.nio.CharBuffer
+M android.graphics.ColorFilter
+M android.view.ViewTreeObserver
+M android.view.inputmethod.CompletionInfo
+M java.internal.FieldLookup
+C haxe.lang.FieldLookup
+M android.content.res.Resources
+M java.internal.Iterator
+C haxe.lang.Iterator
+C haxe.lang.Iterable
+M java.nio.ShortBuffer
+M java.lang.ClassLoader
+M java.io.File
+M android.view.MotionEvent
+M android.view.inputmethod.ExtractedText
+M android.content.SyncStatusObserver
+M java.security.Permission
+M java.util.Random
+M android.content.pm.ResolveInfo
+M android.app.PendingIntent
+M java.net.InterfaceAddress
+M android.database.CharArrayBuffer
+M java.lang.reflect.Constructor
+M examples.glsurfaceview.BasicGLSurfaceView
+C examples.glsurfaceview.BasicGLSurfaceView
+M java.StdTypes
+M android.view.SurfaceHolder
+M java.lang.Long
+M android.os.ParcelFileDescriptor
+M java.lang.Package
+M android.graphics.Canvas
+M android.view.KeyCharacterMap
+M java.types.Char16
+M java.io.FileDescriptor
+M java.io.OutputStream
+M android.view.View
+M haxe.io.BytesData
+M java.io.PrintStream
+M android.content.pm.ProviderInfo
+M android.database.sqlite.SQLiteQuery
+M android.content.res.XmlResourceParser
+M android.graphics.Movie
+M java.util.Enumeration
+M java.lang.Class
+M java.security.Timestamp
+M android.content.ContentProviderOperation
+M android.view.ContextMenu
+M haxe.root.Math
+M java.lang.ref.WeakReference
+M android.app.Dialog
+M android.util.AttributeSet
+M android.text.InputType
+M java.nio.DoubleBuffer
+M java.util.RandomAccess
+M java.security.Principal
+M java.lang.Cloneable
+M java.javax.microedition.khronos.egl.EGLConfig
+M android.content.SyncInfo
+M java.lang.Short
+M android.view.MenuInflater
+M java.util.Collection
+M android.database.Cursor
+M android.graphics.Xfermode
+M haxe.root.Type
+C haxe.root.ValueType
+C haxe.root.Type
+M java.javax.microedition.khronos.egl.EGL
+M java.types.Int16
+M android.view.MenuItem
+M android.view.ViewManager
+M haxe.ds.HashMap
+M java.security.ProtectionDomain
+M java.lang.StringBuffer
+M org.xmlpull.v1.XmlSerializer
+M java.lang.StringBuilder
+M java.lang.reflect.Type
+M java.security.CodeSource
+M android.graphics.Rasterizer
+M android.view.LayoutInflater
+M android.content.pm.PermissionInfo
+M haxe.root.StdTypes
+M android.content.ContentProvider
+M examples.glsurfaceview.Main
+C examples.glsurfaceview.Main
+M android.view.AbsSavedState
+M java.javax.microedition.khronos.opengles.GL
+M java.nio.channels.Selector
+M android.graphics.Bitmap
+M android.view.animation.LayoutAnimationController
+M java.lang.Exception
+M android.graphics.RectF
+M android.view.WindowManager
+M android.content.pm.InstrumentationInfo
+M android.database.sqlite.SQLiteCursorDriver
+M android.util.Printer
+M java.lang.System
+M android.app.Application
+M android.graphics.Matrix
+M java.lang.Thread
+M java.net.SocketImpl
+M android.util.AndroidRuntimeException
+M java.lang.AbstractStringBuilder
+M android.content.pm.ComponentInfo
+M java.net.Socket
+M java.nio.IntBuffer
+M java.internal.Function
+C haxe.lang.Function
+C haxe.lang.VarArgsBase
+C haxe.lang.VarArgsFunction
+C haxe.lang.Closure
+M java.nio.channels.spi.AbstractSelector
+M java.security.Key
+M android.graphics.BitmapFactory
+M java.util.Iterator
+M android.graphics.Paint
+M android.os.IInterface
+M android.view.accessibility.AccessibilityEvent
+M java.nio.Buffer
+M java.lang.Comparable
+M android.view.animation.Transformation
+M java.nio.channels.GatheringByteChannel
+M android.view.InputQueue
+M android.content.ServiceConnection
+M android.content.SyncAdapterType
+M android.content.res.ColorStateList
+M android.content.BroadcastReceiver
+M android.database.sqlite.SQLiteDatabase
+M android.util.SparseBooleanArray
+M android.os.Bundle
+M android.view.ViewParent
+M java.io.Console
+M java.util.ArrayList
+M java.util.Dictionary
+M haxe.root.Enum
+M android.os.Looper
+M java.lang.Iterable
+M java.net.ContentHandler
+M java.net.Proxy
+M android.view.accessibility.AccessibilityEventSource
+M android.os.IBinder
+M android.view.ViewGroup
+M java.io.FileOutputStream
+M java.io.PrintWriter
+M android.view.animation.Interpolator
+M haxe.Int64
+C haxe.Int64
+M java.net.NetworkInterface
+M android.content.IntentSender
+M java.lang.Appendable
+M android.content.pm.PackageItemInfo
+M haxe.root.Map
+M java.io.FilterOutputStream
+M java.security.cert.CertPath
+M android.os.PatternMatcher
+M android.os.Handler
+M android.view.inputmethod.EditorInfo
+M java.net.InetAddress
+M java.net.URLStreamHandler
+M java.security.CodeSigner
+M java.io.FileFilter
+M java.util.Locale
+M haxe.root.Reflect
+C haxe.root.Reflect
+M java.util.Map
+M android.content.pm.PermissionGroupInfo
+M android.content.pm.ActivityInfo
+M android.graphics.Rect
+M android.view.SubMenu
+M java.nio.channels.Channel
+M java.lang.reflect.GenericDeclaration
+M java.types.Int8
+M java.io.Closeable
+M java.lang.Byte
+M java.nio.channels.FileLock
+M java.io.Writer
+M java.javax.microedition.khronos.egl.EGLDisplay
+M java.lang.Integer
+M android.view.ContextThemeWrapper
+M android.content.SharedPreferences
+M android.view.Display
+M java.javax.microedition.khronos.egl.EGL10
+M android.content.Intent
+M java.io.FilenameFilter
+M java.lang.Character
+M java.net.URI
+M java.nio.ByteOrder
+M java.nio.MappedByteBuffer
+M java.security.cert.Certificate
+M java.util.AbstractMap
+M java.io.Serializable
+M java.javax.microedition.khronos.egl.EGLContext
+M java.nio.channels.ReadableByteChannel
+M java.net.SocketAddress
+M android.content.ContentProviderResult
+M android.view.Window
+M android.content.pm.Signature
+M android.os.MessageQueue
+M java.nio.channels.Pipe
+M haxe.root.Class
+M java.lang.reflect.Field
+M java.io.Flushable
+M java.security.PublicKey
+M org.xmlpull.v1.XmlPullParser
+M java.nio.channels.FileChannel
+M android.graphics.PathEffect
+M android.database.ContentObserver
+M android.accounts.Account
+M android.database.sqlite.SQLiteTransactionListener
+M android.content.ContentResolver
+M java.io.InputStream
+M java.io.Reader
+M haxe.root.StringBuf
+C haxe.root.StringBuf
+end modules
+begin main
+examples.glsurfaceview.Main
+end main
+begin resources
+end resources
+begin libs
+C:\Program Files (x86)\Android\android-sdk\platforms\android-10\android.jar
+end libs
